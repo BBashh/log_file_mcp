@@ -146,7 +146,7 @@ Ex:
 
 <p align="center">
   <img
-    src="https://github.com/user-attachments/assets/c5ba0094-0c8b-46de-865e-ff758474d43e"
+    src="https://github.com/user-attachments/assets/bbdf14b3-270d-4d38-bb17-f6f7e32af0d0"
     alt="generate_report example output"
     width="583"
     height="663"
