@@ -134,7 +134,7 @@ Analyze the logs for patterns and anomalies using `xyz` tool
 
 **Extract critical:**
 ```txt
-Show me all critical logs only suing `xyz` tool
+Show me all critical logs only using `xyz` tool
 ```
 
 **Generate report:**
