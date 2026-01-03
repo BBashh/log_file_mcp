@@ -113,7 +113,7 @@ STATS_CONFIG = {
 
 ### In Cursor Chat:
 
-If the chat is giving responses without using the mcp tool, then explicitly mention in the chat to use the xyz tool.
+NOTE: If the chat is giving responses without using the mcp tool, then explicitly mention in the chat to use the xyz tool.
 
 Ex:
 
