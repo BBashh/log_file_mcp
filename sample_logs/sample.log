@@ -1,0 +1,169 @@
+2026-01-03 10:00:01 INFO  Application started
+2026-01-03 10:00:05 INFO  Loading configuration file
+2026-01-03 10:00:07 INFO  Configuration loaded successfully
+2026-01-03 10:00:10 INFO  Connecting to database
+2026-01-03 10:00:12 INFO  Database connection established
+2026-01-03 10:00:15 INFO  Initializing cache
+2026-01-03 10:00:18 INFO  Cache initialized successfully
+2026-01-03 10:00:21 INFO  Starting HTTP server on port 3000
+2026-01-03 10:00:25 INFO  HTTP server started
+2026-01-03 10:01:02 INFO  Incoming request GET /health
+2026-01-03 10:01:02 INFO  Response 200 OK /health
+2026-01-03 10:01:45 INFO  Incoming request POST /login
+2026-01-03 10:01:46 WARN  Invalid login attempt for user admin
+2026-01-03 10:01:50 INFO  Incoming request POST /login
+2026-01-03 10:01:51 INFO  User john logged in successfully
+2026-01-03 10:02:10 INFO  Incoming request GET /dashboard
+2026-01-03 10:02:10 INFO  Response 200 OK /dashboard
+2026-01-03 10:03:05 INFO  Incoming request GET /api/data
+2026-01-03 10:03:06 INFO  Data fetched successfully
+2026-01-03 10:04:12 INFO  Incoming request PUT /api/data/42
+2026-01-03 10:04:13 INFO  Record 42 updated successfully
+2026-01-03 10:05:01 INFO  Scheduled job cleanup started
+2026-01-03 10:05:03 INFO  Cleanup job removed 12 temporary files
+2026-01-03 10:05:04 INFO  Scheduled job cleanup finished
+2026-01-03 10:06:15 INFO  Incoming request GET /api/users
+2026-01-03 10:06:16 INFO  Response 200 OK /api/users
+2026-01-03 10:07:40 INFO  Incoming request DELETE /api/users/7
+2026-01-03 10:07:41 WARN  User 7 not found
+2026-01-03 10:08:55 INFO  Incoming request GET /metrics
+2026-01-03 10:08:55 INFO  Response 200 OK /metrics
+2026-01-03 10:10:00 INFO  Health check started
+2026-01-03 10:10:00 INFO  CPU usage 32%
+2026-01-03 10:10:00 INFO  Memory usage 61%
+2026-01-03 10:10:01 INFO  Disk usage 48%
+2026-01-03 10:10:02 INFO  Health check completed
+2026-01-03 10:12:20 INFO  Incoming request POST /logout
+2026-01-03 10:12:21 INFO  User john logged out
+2026-01-03 10:15:00 INFO  Rotating log files
+2026-01-03 10:15:01 INFO  Log rotation completed
+2026-01-03 10:18:45 ERROR Failed to connect to external API
+2026-01-03 10:18:50 INFO  Retrying external API connection
+2026-01-03 10:18:55 INFO  External API connection successful
+2026-01-03 10:20:00 INFO  Application running normally
+2026-01-03 10:25:00 INFO  Graceful shutdown initiated
+2026-01-03 10:25:02 INFO  HTTP server stopped
+2026-01-03 10:25:04 INFO  Database connection closed
+2026-01-03 10:25:05 INFO  Application shutdown complete
+2026-01-03 10:30:00 INFO  Application restarted
+2026-01-03 10:30:02 INFO  Database connection established
+2026-01-03 10:30:05 INFO  HTTP server started on port 3000
+2026-01-03 10:31:10 INFO  Incoming request GET /health
+2026-01-03 10:31:10 INFO  Response 200 OK /health
+2026-01-03 10:32:14 INFO  Incoming request POST /login
+2026-01-03 10:32:15 INFO  User alice logged in successfully
+2026-01-03 10:33:00 INFO  Incoming request GET /dashboard
+2026-01-03 10:33:01 INFO  Response 200 OK /dashboard
+2026-01-03 10:34:22 INFO  Incoming request GET /api/data
+2026-01-03 10:34:23 INFO  Data fetched successfully
+2026-01-03 10:35:40 WARN  Slow query detected on /api/data
+2026-01-03 10:36:05 INFO  Incoming request POST /api/data
+2026-01-03 10:36:06 INFO  New record created with id 87
+2026-01-03 10:37:15 INFO  Incoming request PUT /api/data/87
+2026-01-03 10:37:16 INFO  Record 87 updated successfully
+2026-01-03 10:38:00 INFO  Scheduled job analytics started
+2026-01-03 10:38:05 INFO  Analytics job processed 1240 records
+2026-01-03 10:38:06 INFO  Scheduled job analytics finished
+2026-01-03 10:39:20 INFO  Incoming request GET /api/users
+2026-01-03 10:39:21 INFO  Response 200 OK /api/users
+2026-01-03 10:40:10 WARN  High memory usage detected: 78%
+2026-01-03 10:41:00 INFO  Health check started
+2026-01-03 10:41:00 INFO  CPU usage 41%
+2026-01-03 10:41:00 INFO  Memory usage 74%
+2026-01-03 10:41:01 INFO  Disk usage 49%
+2026-01-03 10:41:02 INFO  Health check completed
+2026-01-03 10:42:18 INFO  Incoming request GET /metrics
+2026-01-03 10:42:18 INFO  Response 200 OK /metrics
+2026-01-03 10:43:50 ERROR Timeout while calling payment service
+2026-01-03 10:43:55 INFO  Retrying payment service request
+2026-01-03 10:44:01 INFO  Payment service responded successfully
+2026-01-03 10:45:30 INFO  Incoming request POST /logout
+2026-01-03 10:45:31 INFO  User alice logged out
+2026-01-03 10:47:00 INFO  Log buffer flushed to disk
+2026-01-03 10:48:10 INFO  Incoming request GET /health
+2026-01-03 10:48:10 INFO  Response 200 OK /health
+2026-01-03 10:50:00 INFO  Scheduled job cleanup started
+2026-01-03 10:50:03 INFO  Cleanup job removed 9 temporary files
+2026-01-03 10:50:04 INFO  Scheduled job cleanup finished
+2026-01-03 10:52:30 INFO  Incoming request GET /api/data
+2026-01-03 10:52:31 INFO  Data fetched successfully
+2026-01-03 10:54:00 WARN  External API latency above threshold
+2026-01-03 10:55:15 ERROR  External API latency not normalized
+2026-01-03 10:56:40 INFO  Incoming request GET /dashboard
+2026-01-03 10:56:41 INFO  Response 200 OK /dashboard
+2026-01-03 10:58:00 INFO  Preparing for scheduled restart
+2026-01-03 11:00:00 INFO  Graceful shutdown initiated
+2026-01-03 11:00:02 INFO  HTTP server stopped
+2026-01-03 11:00:04 INFO  Database connection closed
+2026-01-03 11:00:05 INFO  Application shutdown complete
+2026-01-03 11:00:06 INFO  Application restarted
+2026-01-03 11:00:08 INFO  Loading configuration file
+2026-01-03 11:00:10 INFO  Configuration loaded successfully
+2026-01-03 11:00:12 INFO  Connecting to database
+2026-01-03 11:00:14 INFO  Database connection established
+2026-01-03 11:00:16 INFO  Initializing cache
+2026-01-03 11:00:18 INFO  Cache initialized successfully
+2026-01-03 11:00:20 INFO  Starting HTTP server on port 3000
+2026-01-03 11:00:22 INFO  HTTP server started
+2026-01-03 11:01:05 INFO  Incoming request GET /health
+2026-01-03 11:01:05 INFO  Response 200 OK /health
+2026-01-03 11:01:40 INFO  Incoming request POST /login
+2026-01-03 11:01:41 INFO  User michael logged in successfully
+2026-01-03 11:02:00 INFO  Incoming request GET /dashboard
+2026-01-03 11:02:01 INFO  Response 200 OK /dashboard
+2026-01-03 11:02:35 INFO  Incoming request GET /api/data
+2026-01-03 11:02:36 INFO  Data fetched successfully
+2026-01-03 11:03:10 WARN  Slow response detected for /api/data
+2026-01-03 11:03:45 INFO  Incoming request PUT /api/data/91
+2026-01-03 11:03:46 INFO  Record 91 updated successfully
+2026-01-03 11:04:20 INFO  Incoming request POST /api/data
+2026-01-03 11:04:21 INFO  New record created with id 92
+2026-01-03 11:05:00 INFO  Scheduled job cleanup started
+2026-01-03 11:05:03 INFO  Cleanup job removed 7 temporary files
+2026-01-03 11:05:04 INFO  Scheduled job cleanup finished
+2026-01-03 11:05:50 INFO  Incoming request GET /api/users
+2026-01-03 11:05:51 INFO  Response 200 OK /api/users
+2026-01-03 11:06:30 WARN  Failed login attempt for user root
+2026-01-03 11:06:55 INFO  Incoming request POST /login
+2026-01-03 11:06:56 INFO  User sarah logged in successfully
+2026-01-03 11:07:25 INFO  Incoming request GET /dashboard
+2026-01-03 11:07:26 INFO  Response 200 OK /dashboard
+2026-01-03 11:08:00 INFO  Health check started
+2026-01-03 11:08:00 INFO  CPU usage 38%
+2026-01-03 11:08:00 INFO  Memory usage 69%
+2026-01-03 11:08:01 INFO  Disk usage 50%
+2026-01-03 11:08:02 INFO  Health check completed
+2026-01-03 11:08:45 INFO  Incoming request GET /metrics
+2026-01-03 11:08:45 INFO  Response 200 OK /metrics
+2026-01-03 11:09:30 ERROR Failed to publish event to message queue
+2026-01-03 11:09:35 INFO  Retrying message queue publish
+2026-01-03 11:09:38 INFO  Message queue publish successful
+2026-01-03 11:10:10 INFO  Incoming request DELETE /api/data/55
+2026-01-03 11:10:11 WARN  Record 55 not found
+2026-01-03 11:11:00 INFO  Scheduled job analytics started
+2026-01-03 11:11:04 INFO  Analytics job processed 1580 records
+2026-01-03 11:11:05 INFO  Scheduled job analytics finished
+2026-01-03 11:11:40 INFO  Incoming request GET /api/data
+2026-01-03 11:11:41 INFO  Data fetched successfully
+2026-01-03 11:12:20 WARN  External API response time degraded
+2026-01-03 11:12:45 INFO  External API response time normalized
+2026-01-03 11:13:10 INFO  Incoming request POST /logout
+2026-01-03 11:13:11 INFO  User michael logged out
+2026-01-03 11:14:00 INFO  Incoming request GET /health
+2026-01-03 11:14:00 INFO  Response 200 OK /health
+2026-01-03 11:14:45 INFO  Incoming request PUT /api/data/92
+2026-01-03 11:14:46 INFO  Record 92 updated successfully
+2026-01-03 11:15:30 INFO  Log buffer flushed to disk
+2026-01-03 11:16:00 WARN  High CPU usage detected: 82%
+2026-01-03 11:16:30 INFO  CPU usage normalized
+2026-01-03 11:17:10 INFO  Incoming request GET /dashboard
+2026-01-03 11:17:11 INFO  Response 200 OK /dashboard
+2026-01-03 11:18:00 INFO  Scheduled job backup started
+2026-01-03 11:18:05 INFO  Backup completed successfully
+2026-01-03 11:18:06 INFO  Scheduled job backup finished
+2026-01-03 11:18:45 INFO  Incoming request GET /api/users
+2026-01-03 11:18:46 INFO  Response 200 OK /api/users
+2026-01-03 11:19:30 ERROR Database connection pool exhausted
+2026-01-03 11:19:35 INFO  Scaling database connections
+2026-01-03 11:19:40 INFO  Database connection pool restored
+2026-01-03 11:20:00 INFO  Application running normally
