@@ -74,7 +74,7 @@ python mcp_server.py
 
 Update your mcp.json file:
 
-**Location:** C:\Users\[YourUsername]\AppData\Roaming\Cursor\User\settings\mcp.json
+**Location:** `C:\Users\[YourUsername]\AppData\Roaming\Cursor\User\settings\mcp.json`
 
 ```json
 {
